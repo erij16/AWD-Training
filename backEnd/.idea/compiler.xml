@@ -9,15 +9,16 @@
         <module name="notification" />
         <module name="config-server" />
         <module name="eureka" />
-        <module name="candidat" />
         <module name="discoveryserver" />
         <module name="Job" />
         <module name="meeting" />
+        <module name="eureka-server" />
         <module name="gateway" />
         <module name="condidature" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="candidat" target="17" />
       <module name="job" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -29,6 +30,7 @@
       <module name="config-server" options="-parameters" />
       <module name="discoveryserver" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="meeting" options="-parameters" />
       <module name="notification" options="-parameters" />

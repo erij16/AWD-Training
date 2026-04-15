@@ -10,6 +10,7 @@
         <module name="config-server" />
         <module name="eureka" />
         <module name="candidat" />
+        <module name="discoveryserver" />
         <module name="Job" />
         <module name="meeting" />
         <module name="gateway" />
@@ -26,6 +27,7 @@
       <module name="candidat" options="-parameters" />
       <module name="condidature" options="-parameters" />
       <module name="config-server" options="-parameters" />
+      <module name="discoveryserver" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="meeting" options="-parameters" />
